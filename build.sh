@@ -15,7 +15,7 @@ curl --output-dir "/etc/yum.repos.d/" --remote-name https://copr.fedorainfraclou
 
 rpm-ostree install wezterm
 
-git clone https://github.com/JulesVerne22/JulianSmith.wezterm.git /opt/wezterm/
+mkdir /opt/wezterm && cd /opt/wezterm && git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.wezterm.git . && git checkout ostree
 
 cd /opt/wezterm
 
