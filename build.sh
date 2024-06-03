@@ -15,13 +15,13 @@ curl --output-dir "/etc/yum.repos.d/" --remote-name https://copr.fedorainfraclou
 
 rpm-ostree install wezterm
 
-mkdir -p /opt/wezterm && cd /opt/wezterm && git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.wezterm.git . && git checkout ostree
+mkdir /opt/wezterm && cd /opt/wezterm && git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.wezterm.git . && git checkout ostree
 
 echo > "export WEZTERM_CONFIG_FILE=/opt/wezterm/wezterm.lua" >> /etc/profile
 
 rpm-ostree install neovim golang luarocks cargo ruby composer julia java-devel tree-sitter-cli fd-find
 
-mkdir -p /etc/xdg/nvim && cd /etc/xdg/nvim && git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.nvim.git . && git checkout ostree
+mkdir /etc/xdg/nvim && cd /etc/xdg/nvim && git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.nvim.git . && git checkout ostree
 
 npm install -g neovim
 
