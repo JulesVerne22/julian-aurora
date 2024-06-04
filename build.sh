@@ -17,7 +17,7 @@ rpm-ostree install wezterm
 
 rpm-ostree install neovim golang luarocks cargo ruby composer julia java-devel tree-sitter-cli fd-find
 
-mkdir /etc/xdg/nvim && cd /etc/xdg/nvim && git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.nvim.git . && git checkout ostree
+echo "export WEZTERM_CONFIG_FILE=/usr/share/wezterm/wezterm.lua" >> /etc/profile
 
 npm install -g neovim
 
