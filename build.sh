@@ -33,6 +33,6 @@ rpm-ostree install screen
 
 systemctl enable podman.socket
 
-ln -sf /usr/share/backgrounds/bluefin/WallPaper_SpringDay_Post.png /usr/share/backgrounds/default.png
-ln -sf /usr/share/backgrounds/bluefin/WallPaper_SummerNight_Post.png /usr/share/backgrounds/default-dark.png
-ln -sf /usr/share/backgrounds/bluefin/bluefin-spring-dynamic.xml /usr/share/backgrounds/default.xml
+ln -sf /usr/share/wallpapers/WallPaper_SpringDay_Post.jpg /usr/share/backgrounds/default.png
+ln -sf /usr/share/wallpapers/WallPaper_SummerNight_Post.jpg /usr/share/backgrounds/default-dark.png
+ln -sf /usr/share/wallpapers/bluefin-spring-dynamic.xml /usr/share/backgrounds/default.xml
