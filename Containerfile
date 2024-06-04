@@ -50,6 +50,8 @@ FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 
 COPY system_files /
 
+COPY just /tmp/just
+
 COPY build.sh /tmp/build.sh
 
 RUN mkdir -p /var/lib/alternatives && \

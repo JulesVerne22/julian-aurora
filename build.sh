@@ -36,3 +36,5 @@ systemctl enable podman.socket
 ln -sf /usr/share/wallpapers/WallPaper_SpringDay_Post.jpg /usr/share/backgrounds/default.png
 ln -sf /usr/share/wallpapers/WallPaper_SummerNight_Post.jpg /usr/share/backgrounds/default-dark.png
 ln -sf /usr/share/wallpapers/bluefin-spring-dynamic.xml /usr/share/backgrounds/default.xml
+
+find /tmp/just -iname '*.just' -exec printf "\n\n" \; -exec cat {} \; >> /usr/share/ublue-os/just/60-custom.just
