@@ -15,7 +15,7 @@ curl --output-dir "/etc/yum.repos.d/" --remote-name https://copr.fedorainfraclou
 
 rpm-ostree install wezterm
 
-cd /opt && mkdir wezterm && cd wezterm && git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.wezterm.git . && git checkout ostree
+mkdir /opt && cd /opt && mkdir wezterm && cd wezterm && git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.wezterm.git . && git checkout ostree
 
 echo > "export WEZTERM_CONFIG_FILE=/opt/wezterm/wezterm.lua" >> /etc/profile
 
