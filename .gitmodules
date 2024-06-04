@@ -1,0 +1,3 @@
+[submodule "system_files/usr/share/wezterm"]
+	path = system_files/usr/share/wezterm
+	url = https://github.com/JulesVerne22/JulianSmith.wezterm.git
