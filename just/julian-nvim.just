@@ -10,5 +10,5 @@ setup-julian-nvim:
     mkdir nvim
     cd nvim
     git clone --depth 1 https://github.com/JulesVerne22/JulianSmith.nvim.git .
-    git checkout ostree
+    echo ""
     echo "IMPORTANT! Logout and back in for changes to take effect."
