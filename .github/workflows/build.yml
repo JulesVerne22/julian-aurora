@@ -91,6 +91,9 @@ jobs:
             org.opencontainers.image.description=${{ env.MY_IMAGE_DESC }}
             org.opencontainers.image.title=${{ env.MY_IMAGE_NAME }}
 
+      - name: Maximize build space
+        uses: ublue-os/remove-unwanted-software@v7
+
       # Build image using Buildah action
       - name: Build Image
         id: build_image
