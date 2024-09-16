@@ -36,7 +36,7 @@ jobs:
           submodules: 'true'
 
       - name: Check just syntax
-        uses: ublue-os/just-action@v1
+        uses: ublue-os/just-action@v2
 
       - name: Generate tags
         id: generate-tags
